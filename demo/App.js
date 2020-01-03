@@ -115,6 +115,7 @@ const Explorer = () => {
         alignItems: 'center',
       }}>
       <AutoHeightWebView
+        scalesPageToFit={true}
         scrollableWhenZoomin
         scrollEnabled={false}
         customStyle={
